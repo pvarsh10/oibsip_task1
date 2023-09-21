@@ -1,0 +1,71 @@
+/* Calculator styles */
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: #1e1e1e; /* Dark black background */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3), 0px 6px 6px rgba(0, 0, 0, 0.23);
+    margin-top: 50px;
+}
+
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #333; /* Darker gray */
+    border: none;
+    color: #ecf0f1; /* Light gray text */
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+}
+
+#btn {
+    background-color: #e74c3c; /* Red button background */
+}
+
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #3498db; /* Dark blue button background */
+    color: #ecf0f1; /* Light gray text */
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+}
+
+input:active[type=button] {
+    background: #1d607f; /* Darker blue when button is active */
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+/* Body and Header styles */
+body {
+    background-color: #3b3a3a; /* Dark black background */
+}
+
+h1 {
+    text-align: center;
+    background-color: #1a1a1a; /* Darker gray header background */
+    color: #ecf0f1; /* Light gray header text color */
+    padding: 10px;
+}
+
+/* Navbar and Footer styles */
+.navbar {
+    background-color: #0e0d0d; /* Darker black background */
+    color: #ecf0f1; /* Light gray text color */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer {
+    background-color: #0e0d0d; /* Darker black background */
+    color: #ecf0f1; /* Light gray text color */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
